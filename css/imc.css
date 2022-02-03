@@ -1,0 +1,64 @@
+input[type=number]  {
+    width: max-content;
+    padding: 5px 40px;
+    margin: 15px 0;
+    box-sizing: border-box;
+
+  } 
+
+  input[type=text]  {
+    padding: 5px 40px;
+    margin: 15px 20px;
+    border: none;
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    
+  } 
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #2c12c0;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  text-decoration: solid;
+  margin: 4px 10px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #2c1bc2; 
+  border: none;
+  color: white;
+  padding: 10px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+           
+div{
+  position: absolute;
+  text-align: center;
+ 
+}
+
+.container {
+    position: fixed;
+    top: 200px;
+    right: 42%;
+    font-family: arial;
+    font-size: 14px;
+    margin: -10;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(5, 104, 202, 0.61);
+  }
+
+header {
+  background-color: rgba(5, 104, 202, 0.61);
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
